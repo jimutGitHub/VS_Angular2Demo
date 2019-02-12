@@ -2,7 +2,8 @@
 
 @Component({
     selector: 'my-employee',
-    templateUrl: 'app/Employee/employee.component.html'
+    templateUrl: 'app/Employee/employee.component.html',
+    styleUrls: ['app/Employee/employee.component.css']
 })
 export class EmployeeComponent {
     firstName: string = "Raghu"
