@@ -14,6 +14,9 @@ var EmployeeComponent = /** @class */ (function () {
         this.gender = "Male";
         this.age = 27;
     }
+    EmployeeComponent.prototype.getFullName = function () {
+        return (this.firstName + " " + this.lastName);
+    };
     EmployeeComponent = __decorate([
         core_1.Component({
             selector: 'my-employee',

@@ -10,4 +10,8 @@ export class EmployeeComponent {
     lastName: string = "Rawat"
     gender: string = "Male"
     age: number = 27
+
+    getFullName(): string {
+        return (this.firstName + " " + this.lastName )
+    }
 }
